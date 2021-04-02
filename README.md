@@ -9,9 +9,9 @@ Support/Donations:
 OWPDYBUHAHUPEYEPCLKCVHVEIKZJQPTEAFOEOKCLZHHEWUUZKIWEQNWJCAUFASQ9PQQLYVKMHJAYCDOCCUCHAIYKXY
 
 Documentation TODO:
--[ ] Reason behind this project
--[ ] Some words about the tools (Unity, Blender), advices for good beginner tutorials
--[ ] Link to official resources (https://www.iota.org/connect/brand etc.)
--[ ] Basic setup / how to use the source files
--[ ] Tips for generating/exporting images and animations
--[ ] Post Processing Tips
+- [ ] Reason behind this project
+- [ ] Some words about the tools (Unity, Blender), advices for good beginner tutorials
+- [ ] Link to official resources (https://www.iota.org/connect/brand etc.)
+- [ ] Basic setup / how to use the source files
+- [ ] Tips for generating/exporting images and animations
+- [ ] Post Processing Tips
