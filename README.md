@@ -1,17 +1,30 @@
 # iota-creative
-Repository that provides very basic 3D files for people 
+This is a repository that provides very basic 3D files for people 
 who would like to do some IOTA-related artwork.
 
-(more info to come soon...) 
+## Motivation
 
-Support/Donations:
+TODO
+
+## Tools
+
+TODO
+
+## Official Resources of the IOTA Foundation
+https://www.iota.org/connect/brand
+
+## Basic Setup
+
+TODO
+
+## Exporting Images/Gif Animations/Movies
+
+TODO
+
+## Post Processing
+
+TODO
+
+## Support/Donations
 
 OWPDYBUHAHUPEYEPCLKCVHVEIKZJQPTEAFOEOKCLZHHEWUUZKIWEQNWJCAUFASQ9PQQLYVKMHJAYCDOCCUCHAIYKXY
-
-Documentation TODO:
-- [ ] Reason behind this project
-- [ ] Some words about the tools (Unity, Blender), advices for good beginner tutorials
-- [ ] Link to official resources (https://www.iota.org/connect/brand etc.)
-- [ ] Basic setup / how to use the source files
-- [ ] Tips for generating/exporting images and animations
-- [ ] Post Processing Tips

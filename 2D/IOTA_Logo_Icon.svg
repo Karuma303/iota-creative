@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" baseProfile="full"
+    width="100%" height="100%"
+    viewBox="-1 -1 2 2">
+    <title>IOTA Logo</title>
+    <desc>IOTA logo icon with circle primitives and symmetry</desc>
+	<g fill="black" id="dot_arm">
+		<circle cx="0.20493" cy="-0.431538" r="0.058332" />
+		
+		<circle cx="0.221714" cy="-0.276351" r="0.048958" />
+		<circle cx="0.352265" cy="-0.257608" r="0.048958" />
+
+		<circle cx="0.205031" cy="-0.145117" r="0.041686" />
+		<circle cx="0.335515" cy="-0.127389" r="0.041686" />
+		<circle cx="0.439976" cy="-0.08679" r="0.041686" />
+		
+		<circle cx="0.166421" cy="-0.039933" r="0.0364735" />
+		<circle cx="0.296938" cy="-0.022239" r="0.0364735" />
+		<circle cx="0.402415" cy="0.018393" r="0.0364735" />
+		
+		<circle cx="0.115222" cy="0.040249" r="0.031264" />
+		<circle cx="0.244725" cy="0.059026" r="0.031264" />
+		<circle cx="0.35037" cy="0.098609" r="0.031264" />
+		
+		<circle cx="0.056748" cy="0.09756" r="0.0260545" />
+		<circle cx="0.1873" cy="0.115254" r="0.0260545" />
+		<circle cx="0.291727" cy="0.154838" r="0.0260545" />
+		
+		<circle cx="0.127743" cy="0.150676" r="0.022907" />
+		<circle cx="0.232204" cy="0.190158" r="0.022907" />
+
+		<circle cx="0.176911" cy="0.209002 " r="0.0187805" />
+	</g>
+	<use xlink:href="#dot_arm" transform="rotate(120)" />
+	<use xlink:href="#dot_arm" transform="rotate(240)" />
+</svg>
