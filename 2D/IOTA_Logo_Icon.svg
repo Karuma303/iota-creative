@@ -3,36 +3,57 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="1.1" baseProfile="full"
     width="100%" height="100%"
-    viewBox="-1 -1 2 2">
+    viewBox="-1 -1 5 2">
     <title>IOTA Logo</title>
     <desc>IOTA logo icon with circle primitives and symmetry</desc>
-	<g fill="black" id="dot_arm">
-		<circle cx="0.20493" cy="-0.431538" r="0.058332" />
+	
+	<!-- Circles "Dots" -->
+	<g fill="none" stroke="black" stroke-width="0.004" id="dot_arm">
 		
-		<circle cx="0.221714" cy="-0.276351" r="0.048958" />
-		<circle cx="0.352265" cy="-0.257608" r="0.048958" />
+		<circle cx="0.20493" cy="-0.431538" r="0.058332" /> <!-- C1 -->
+		
+		<circle cx="0.221714" cy="-0.276351" r="0.048958" /> <!-- C2 -->
+		<circle cx="0.352265" cy="-0.257608" r="0.048958" /> <!-- C3 -->
 
-		<circle cx="0.205031" cy="-0.145117" r="0.041686" />
-		<circle cx="0.335515" cy="-0.127389" r="0.041686" />
-		<circle cx="0.439976" cy="-0.08679" r="0.041686" />
+		<circle cx="0.205031" cy="-0.145117" r="0.041686" /> <!-- C4 -->
+		<circle cx="0.335515" cy="-0.127389" r="0.041686" /> <!-- C5 -->
+		<circle cx="0.439976" cy="-0.08679" r="0.041686" /> <!-- C6 -->
 		
-		<circle cx="0.166421" cy="-0.039933" r="0.0364735" />
-		<circle cx="0.296938" cy="-0.022239" r="0.0364735" />
-		<circle cx="0.402415" cy="0.018393" r="0.0364735" />
+		<circle cx="0.166421" cy="-0.039933" r="0.0364735" /> <!-- C7 -->
+		<circle cx="0.296938" cy="-0.022239" r="0.0364735" /> <!-- C8 -->
+		<circle cx="0.402415" cy="0.018393" r="0.0364735" /> <!-- C9 -->
 		
-		<circle cx="0.115222" cy="0.040249" r="0.031264" />
-		<circle cx="0.244725" cy="0.059026" r="0.031264" />
-		<circle cx="0.35037" cy="0.098609" r="0.031264" />
+		<circle cx="0.115222" cy="0.040249" r="0.031264" /> <!-- C10 -->
+		<circle cx="0.244725" cy="0.059026" r="0.031264" /> <!-- C11 -->
+		<circle cx="0.35037" cy="0.098609" r="0.031264" /> <!-- C12 -->
 		
-		<circle cx="0.056748" cy="0.09756" r="0.0260545" />
-		<circle cx="0.1873" cy="0.115254" r="0.0260545" />
-		<circle cx="0.291727" cy="0.154838" r="0.0260545" />
+		<circle cx="0.056748" cy="0.09756" r="0.0260545" /> <!-- C13 -->
+		<circle cx="0.1873" cy="0.115254" r="0.0260545" /> <!-- C14 -->
+		<circle cx="0.291727" cy="0.154838" r="0.0260545" /> <!-- C15 -->
 		
-		<circle cx="0.127743" cy="0.150676" r="0.022907" />
-		<circle cx="0.232204" cy="0.190158" r="0.022907" />
+		<circle cx="0.127743" cy="0.150676" r="0.022907" /> <!-- C16 -->
+		<circle cx="0.232204" cy="0.190158" r="0.022907" /> <!-- C17 -->
 
-		<circle cx="0.176911" cy="0.209002 " r="0.0187805" />
+		<circle cx="0.176911" cy="0.209002 " r="0.0187805" /> <!-- C18 -->
+		
 	</g>
 	<use xlink:href="#dot_arm" transform="rotate(120)" />
 	<use xlink:href="#dot_arm" transform="rotate(240)" />
+	
+	<!-- Characters for "IOTA" Text -->
+	<g fill="none" stroke="black" stroke-width="0.004">
+	
+		<!-- character "I" - path with simple horizontal/vertical lines -->
+		<path d="M 0.899724,0.313093 H 0.971489 V -0.316064 H 0.899724 Z" />
+
+		<!-- character "O" - two ellipses that share the same center -->
+		<ellipse cx="1.52381" cy="0.001875" rx="0.320995" ry="0.3255995" />
+		<ellipse cx="1.52381" cy="0.001875" rx="0.2491795" ry="0.2592675" />	
+		
+		<!-- character "T" - path with simple horizontal/vertical lines -->
+		<path d="M 2.21181,0.313093 H 2.28358 V -0.248242 H 2.49484 V -0.315962 H 2.00163 V -0.248242 H 2.21181 Z" />
+		
+		<!-- character "A" - path with straight lines and a curve/arc at the top -->
+		<path d="M 2.5553, 0.313093 H 2.63319 L 2.87145,-0.228434 L 3.10775,0.313093 H 3.18564 L 2.92445,-0.280714 A 0.059414,0.059414 0 0 0 2.81631,-0.280714 Z" />
+	</g>
 </svg>
